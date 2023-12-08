@@ -40,3 +40,8 @@ build/
 *.zip
 *.tar.gz
 *.rar
+
+
+node_modules
+.npm
+.husky
