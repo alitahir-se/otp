@@ -1,4 +1,4 @@
-# OTP System
+# OTP System (In Progress)
 
 ### Goal
 
@@ -6,7 +6,7 @@ The goal of the project is to create highly scalable and secure otp system, that
 
 ### High Level Architecture
 
-The planned architecture is available in miro. It is at its very initial stages and will evolve overtime to include docker, kubernetes, and API gateway
+The planned architecture is available in miro. It is at its very initial stages and will evolve overtime to include docker, kubernetes, API gateway, Linkerd (mesh) and monitoring tools
 
 https://miro.com/app/board/uXjVNEti8jc=/?share_link_id=182970526901
 
@@ -33,6 +33,14 @@ Apart from that generation of otp can use complex algorithms for enhanced securi
 
 Rate lmiting will be included at a later stage
 
+
+### Logging
+
+a separate (AOP) logging service may be created - it is being considered
+
+### Monitoring
+
+Open Telemetry, Grafana and other monitoring and logging tools will be integrated soon
 
 ## Commit message format
 
