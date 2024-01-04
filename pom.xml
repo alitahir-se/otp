@@ -6,7 +6,6 @@
 	<modules>
 		<module>otp-generation-service</module>
 		<module>otp-verification-service</module>
-		<module>otp-delivery-service</module>
 	</modules>
 
 	<parent>
